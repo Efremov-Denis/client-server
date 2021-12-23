@@ -1,0 +1,16 @@
+word_1 = 'разработка'
+word_2 = 'администрирование'
+word_3 = 'protocol'
+word_4 = 'standard'
+word_1_bytes = word_1.encode('utf-8')
+word_2_bytes = word_2.encode('utf-8')
+word_3_bytes = word_3.encode('utf-8')
+word_4_bytes = word_4.encode('utf-8')
+dec_word_1 = word_1_bytes.decode('utf-8')
+dec_word_2 = word_2_bytes.decode('utf-8')
+dec_word_3 = word_3_bytes.decode('utf-8')
+dec_word_4 = word_4_bytes.decode('utf-8')
+print(word_1, word_1_bytes, dec_word_1)
+print(word_2, word_2_bytes, dec_word_2)
+print(word_3, word_3_bytes, dec_word_3)
+print(word_4, word_4_bytes, dec_word_4)
